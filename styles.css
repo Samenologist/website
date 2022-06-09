@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+::selection {
+    background: rgb(82, 144, 163);
+}
+  
+.bg {
+    background-image: url("thylacine.gif");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.text {
+    font-family: Yu Gothic;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+a:hover {
+    color: rgb(169, 180, 190);
+    background-color: rgb(82, 144, 163);
+    transition: 1s;
+}
+  
